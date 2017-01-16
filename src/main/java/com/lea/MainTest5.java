@@ -10,6 +10,11 @@ public class MainTest5 {
         System.out.printf("еще коммент в старте");
         System.out.println("");
         print();
+
+
+        display();
+
+        compute();
     }
 
     public static void print () {
@@ -18,5 +23,9 @@ public class MainTest5 {
 
     public static void display () {
         System.out.println("добавили метод display");
+    }
+
+    public static void compute () {
+        System.out.printf("добавили  метод compute");
     }
 }
