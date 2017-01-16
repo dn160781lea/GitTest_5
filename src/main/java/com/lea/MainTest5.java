@@ -6,5 +6,7 @@ package com.lea;
 public class MainTest5 {
     public static void main(String[] args) {
         System.out.println("страт, первая модификация");
+
+        System.out.printf("еще коммент в старте");
     }
 }
