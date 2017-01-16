@@ -8,5 +8,15 @@ public class MainTest5 {
         System.out.println("страт, первая модификация");
 
         System.out.printf("еще коммент в старте");
+        System.out.println("");
+        print();
+    }
+
+    public static void print () {
+        System.out.printf("добавлем ещё одну ветку");
+    }
+
+    public static void display () {
+        System.out.println("добавили метод display");
     }
 }
